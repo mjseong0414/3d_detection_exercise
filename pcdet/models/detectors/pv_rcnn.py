@@ -1,0 +1,1 @@
+from .detector3d_Template import Detector3DTemplate
