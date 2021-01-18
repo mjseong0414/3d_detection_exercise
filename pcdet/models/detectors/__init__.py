@@ -1,7 +1,7 @@
 from .pv_rcnn import PVRCNN
 
 __all__ = {
-    'PVRCNN' = PVRCNN
+    'PVRCNN' : PVRCNN
 }
 
 def build_detector(model_cfg, num_class, dataset):
