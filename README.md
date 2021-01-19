@@ -24,9 +24,17 @@
 
 
 
+- dataset.py의 prepare_data 함수에서 aug, processor, encoder forward 함수 실행.
 
 
 
+
+
+
+
+
+
+## 궁금
 
 - kitti_dataset.yaml 
 
