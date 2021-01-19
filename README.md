@@ -29,6 +29,13 @@
 
 
 - kitti_dataset.yaml 
+
   - 4번라인 point_cloud_range 의미
   - 47번라인 point_feature_encoding 의미
+
+  - 55번라인 mask_points_and_boxes_outside_range 의미
+    - masking된 points와 masking된 gt_boxe들만 사용하려고 걸러주는거?
+  - 58번라인 shuffle_points
+    - point들을 랜덤으로 섞은 후 다시 data_dict['points']에 저장
+    - 왜 해주는거
 
