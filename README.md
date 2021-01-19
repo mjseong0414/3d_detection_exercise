@@ -21,3 +21,14 @@
 
 - evaluation
   - 미완료
+
+
+
+
+
+
+
+- kitti_dataset.yaml 
+  - 4번라인 point_cloud_range 의미
+  - 47번라인 point_feature_encoding 의미
+
