@@ -21,7 +21,7 @@ def build_optimizer(model, optim_cfg):
         
         def num_children(m: nn.Module) -> int:
             return len(children(m))
-        
+
         flatten_model = lambda m: sum(map(flatten_model, m.children()), []) if num_children(m) else [m]
         get_layer_groups = lambda m: [nn.Sequential(*flatten_model(m))]
 
