@@ -12,8 +12,8 @@
   - 설정들 정의
   - cfg_from_yaml_file
     - 사전 정의된 model config파일의 내용을 사용할 config 파일에 합친다.
-
-![Screenshot from 2021-02-01 17-53-06](images/Screenshot from 2021-02-01 17-53-06.png)
+    
+  - ![Screenshot from 2021-02-01 17-53-06](images/Screenshot from 2021-02-01 17-53-06.png)
 
 
 
